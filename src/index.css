@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #22c55e;
+}
+
+body {
+  @apply antialiased;
+}
+
+input[type="checkbox"] {
+  @apply rounded border-gray-300 text-green-600 focus:ring-green-500;
+}
